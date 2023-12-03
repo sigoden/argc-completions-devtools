@@ -1,0 +1,7 @@
+asciidoctor
+bundle;bundler
+fastlane
+pod;cocoapods
+pry
+rake
+xcodeproj

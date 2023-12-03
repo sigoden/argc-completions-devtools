@@ -1,0 +1,4 @@
+laravel;laravel/installer
+pest;pestphp/pest
+phpunit;phpunit/phpunit
+wp;wp-cli/wp-cli

@@ -1,0 +1,4 @@
+nssm
+scoop
+winget
+wsl

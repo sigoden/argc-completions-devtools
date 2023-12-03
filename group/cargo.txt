@@ -1,0 +1,11 @@
+broot
+cargo-contract
+cargo-crev
+cargo-geiger
+cargo-insta
+cargo-license
+cargo-ndk
+cargo-sqlx;sqlx-cli
+cargo-tauri;tauri-cli
+flamegraph
+twiggy

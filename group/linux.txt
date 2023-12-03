@@ -1,0 +1,8 @@
+apk
+dnf
+emerge
+makepkg;pacman
+opkg
+pacman
+yum
+zypper
