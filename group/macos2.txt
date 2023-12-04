@@ -1,3 +1,5 @@
+brew
 m
 mas
+swift
 xcodes

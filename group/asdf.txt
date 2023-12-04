@@ -4,6 +4,7 @@ consul
 dart
 elixir
 flutter
+glab
 go;golang@1.21.4
 julia
 lua

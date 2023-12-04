@@ -35,7 +35,14 @@ check:all() {
 list() {
     for group in "${argc_groups[@]}"; do
         _helper_cmds "$group"
-        echo
+    done
+}
+
+# @cmd Format group txts
+format() {
+    for f in group/*.txt; do
+        cat $f | sort -n -t';' -k1,1 | sponge $f
+        sed -i '/^\s*$/ d' $f
     done
 }
 
@@ -211,7 +218,7 @@ apt() {
     for line in "${lines[@]}"; do
         IFS=';' read -r name value <<<"$line"
         echo "### apt $name"
-        command apt install -y "${value:-$name}"
+        command sudo apt install -y "${value:-$name}"
         echo
     done
 }

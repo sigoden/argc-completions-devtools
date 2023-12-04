@@ -35,7 +35,6 @@ cmark
 cmus
 conky;conky-cli
 cpupower;linux-tools-common
-cryptsetup;cryptsetup-bin
 cscope
 cssh;clusterssh
 cwebp;webp
@@ -45,7 +44,6 @@ darktable-cli;darktable
 dhcpcd;dhcpcd5
 dict
 dmenu;suckless-tools
-dmidecode
 doas
 dos2unix
 dropbox;nautilus-dropbox
@@ -68,8 +66,6 @@ flac
 flatpak
 flex
 fortune;fortune-mod
-ftp;inetutils-tools
-fusermount;fuse3
 fzy
 getmail;getmail6
 ghostscript
@@ -81,7 +77,6 @@ gnutls-cli;gnutls-bin
 gnutls-serv;gnutls-bin
 gource
 gphoto2
-groff
 gs;ghostscript
 guix
 hashcat
@@ -103,12 +98,10 @@ keepassxc-cli;keepassxc
 links
 lldb
 lnav
-logrotate
+lp;cups-client
 lpass;lastpass-cli
-lp;manpages-posix
-luarocks
 lynx
-machinectl;systemd
+machinectl;systemd-container
 mat2
 mbuffer
 meld
@@ -167,17 +160,11 @@ snap;snapd
 source-highlight
 sqlite3
 sshfs
-ss;iproute2
 stow
-strace
-subl;sublime-text
 svn;subversion
 sv;runit
 swaks
-swift
 systemd-nspawn;systemd
-tcpdump
-telnet;inetutils-tools
 tesseract;tesseract-ocr
 tex;texlive-binaries
 tidy
@@ -187,7 +174,6 @@ tmate
 tmux
 tmuxinator
 torsocks
-tracepath;iputils-tracepath
 traceroute
 tree
 tshark
@@ -199,7 +185,6 @@ unison
 unix2dos;dos2unix
 vagrant
 valgrind
-vcpkg
 virsh;libvirt-clients
 vlc
 vpnc

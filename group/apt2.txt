@@ -21,11 +21,13 @@ c++;g++
 chattr;e2fsprogs
 cpio
 crontab;bcron
+cryptsetup;cryptsetup-bin
 curl
 dconf;dconf-cli
 dhclient;isc-dhcp-client
 dig;bind9-dnsutils
 dkms
+dmidecode
 dnsmasq
 dpkg
 dpkg-deb;dpkg
@@ -35,7 +37,9 @@ efibootmgr
 elvish
 file
 fish
+ftp;inetutils-tools
 fuser;psmisc
+fusermount;fuse3
 fwupdmgr;fwupd
 gawk
 gcc
@@ -44,6 +48,7 @@ getent;manpages
 g++;g++
 git
 grep
+groff
 gunzip;zutils
 gzip;zutils
 iconv;manpages
@@ -58,6 +63,7 @@ ldd;libc-bin
 less
 loadkeys;kbd
 locale;manpages
+logrotate
 lsattr;e2fsprogs
 lsb_release;lsb-release
 lshw
@@ -83,11 +89,16 @@ route;net-tools
 rsync
 sed
 shasum;perl
+ss;iproute2
+strace
 sudo
 sudoedit;sudo
 tar
+tcpdump
 tcsh
+telnet;inetutils-tools
 tput;ncurses-bin
+tracepath;iputils-tracepath
 tune2fs;e2fsprogs
 unlzma;xz-utils
 unxz;xz-utils

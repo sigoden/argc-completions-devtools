@@ -4,6 +4,7 @@ gem;ruby
 gofmt;go
 jar;java
 keytool;java
+luarocks;lua
 mix;elixir
 nix-build;nix
 nix-channel;nix
@@ -22,4 +23,5 @@ pip;python
 python3;python
 rustc;cargo
 rustfmt;cargo
+rustup;cargo
 which
