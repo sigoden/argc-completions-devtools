@@ -85,7 +85,6 @@ gum;charmbracelet/gum
 hadolint;hadolint/hadolint
 hasura;hasura/graphql-engine
 helmfile;helmfile/helmfile
-helm;helm/helm
 hexyl;sharkdp/hexyl
 hrp;httprunner/httprunner
 htmlq;mgdm/htmlq

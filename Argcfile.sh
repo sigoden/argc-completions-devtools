@@ -94,7 +94,7 @@ debug() {
 }
 
 # @cmd Install commands in asdf group
-# @option --skip <LINENUM>
+# @option -s --start <LINENUM>
 asdf() {
     _group_lines asdf
     for line in "${lines[@]}"; do
@@ -117,7 +117,7 @@ asdf() {
 }
 
 # @cmd Install commands in cargo group
-# @option --skip <LINENUM>
+# @option -s --start <LINENUM>
 cargo() {
     _group_lines cargo
     for line in "${lines[@]}"; do
@@ -129,7 +129,7 @@ cargo() {
 }
 
 # @cmd Install commands in composer group
-# @option --skip <LINENUM>
+# @option -s --start <LINENUM>
 composer() {
     _group_lines composer
     for line in "${lines[@]}"; do
@@ -141,7 +141,7 @@ composer() {
 }
 
 # @cmd Install commands in gem group
-# @option --skip <LINENUM>
+# @option -s --start <LINENUM>
 gem() {
     _group_lines gem
     for line in "${lines[@]}"; do
@@ -153,7 +153,7 @@ gem() {
 }
 
 # @cmd Install commands in ghrelease group
-# @option --skip <LINENUM>
+# @option -s --start <LINENUM>
 ghrelesae() {
     _group_lines ghrelease
     for line in "${lines[@]}"; do
@@ -165,7 +165,7 @@ ghrelesae() {
 }
 
 # @cmd Install commands in go group
-# @option --skip <LINENUM>
+# @option -s --start <LINENUM>
 go() {
     _group_lines go
     for line in "${lines[@]}"; do
@@ -180,7 +180,7 @@ go() {
 }
 
 # @cmd Install commands in nix group
-# @option --skip <LINENUM>
+# @option -s --start <LINENUM>
 nix() {
     _group_lines nix
     for line in "${lines[@]}"; do
@@ -192,7 +192,7 @@ nix() {
 }
 
 # @cmd Install commands in npm group
-# @option --skip <LINENUM>
+# @option -s --start <LINENUM>
 npm() {
     _group_lines npm
     for line in "${lines[@]}"; do
@@ -204,37 +204,13 @@ npm() {
 }
 
 # @cmd Install commands in pip group
-# @option --skip <LINENUM>
+# @option -s --start <LINENUM>
 pipx() {
     _group_lines pipx
     for line in "${lines[@]}"; do
         IFS=';' read -r name value <<<"$line"
         echo "### pipx $name"
         command pipx install --include-deps "${value:-$name}"
-        echo
-    done
-}
-
-# @cmd Install commands in sdk group
-sdk() {
-    source "$HOME/.sdkman/bin/sdkman-init.sh"
-    _group_lines sdk
-    for line in "${lines[@]}"; do
-        IFS=';' read -r value1 value2 <<<"$line"
-        if [[ -n "$value2" ]]; then
-            cmd="$value1"
-            IFS='@' read -r value3 version <<<"$value2"
-            app="$value3"
-        else
-            IFS='@' read -r value3 version <<<"$value1"
-            app="$value3"
-            cmd="$app"
-        fi
-        if [[ -z "$version" ]]; then
-            version="$(curl -fsSL https://api.sdkman.io/2/candidates/$app/linuxx64/versions/all | tr ',' '\n' | head -n 1)"
-        fi
-        echo "### sdk $cmd"
-        sdk install $app $version
         echo
     done
 }
@@ -264,7 +240,7 @@ installer:asdf() {
 }
 
 _group_lines() {
-    if [[ -n "$argc_skip" ]]; then skip_args="1,$argc_skip d"; fi
+    if [[ -n "$argc_start" ]]; then skip_args="1,$(($argc_start-1)) d"; fi
     mapfile -t lines < <(cat group/$1.txt | sed "$skip_args")
 }
 

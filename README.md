@@ -23,10 +23,9 @@ Tools for setting up all commands referenced by [argc-completions](https://githu
     ├── nix.txt                 # nix install
     ├── npm.txt                 # npm install
     ├── pipx.txt                # pipx install
-    ├── sdk.txt                 # sdkman install
     └── windows.txt             # windows install
 ```
 
 ## Precedure
 
-ghrelease > asdf|sdk > cargo|composer|gemgo|npm|pip > nix > apt
+ghrelease > asdf > cargo|composer|gemgo|npm|pip > nix > apt

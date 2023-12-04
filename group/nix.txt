@@ -81,7 +81,6 @@ gnutls-cli;gnutls
 gnutls-serv;gnutls
 gource
 gphoto2
-groff
 gs;ghostscript
 guix
 hashcat
@@ -133,6 +132,7 @@ nnn
 nvim;neovim
 optipng
 pandoc
+parallel
 pass
 pdfgrep
 pg_dumpall;postgresql
@@ -216,3 +216,10 @@ zathura
 7za;p7zip
 7z;p7zip
 7zr;p7zip
+ant
+java;jdk
+gradle
+jmeter
+kotlin
+sbt
+mvn;maven

@@ -48,6 +48,7 @@ getent;manpages
 g++;g++
 git
 grep
+groff
 gunzip;zutils
 gzip;zutils
 iconv;manpages
@@ -84,7 +85,6 @@ netctl-auto;netctl
 nginx
 nmcli;network-manager
 pactl;pulseaudio-utils
-parallel;moreutils
 pee;moreutils
 perf;linux-tools-common
 perl

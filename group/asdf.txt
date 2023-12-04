@@ -17,7 +17,6 @@ packer
 php
 python;python@3.11.6
 ruby
-terraform
 vault
 waypoint
 zig
