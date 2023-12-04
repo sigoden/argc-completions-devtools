@@ -21,7 +21,6 @@ otool
 pbcopy
 pkgutil
 pmset
-port
 shortcuts
 simctl
 softwareupdate

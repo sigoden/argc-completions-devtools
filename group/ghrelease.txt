@@ -111,6 +111,7 @@ lazygit;jesseduffield/lazygit
 lf;gokcehan/lf
 limactl;lima-vm/lima
 lima;lima-vm/lima
+lnav;tstack/lnav
 lsd;lsd-rs/lsd
 lychee;lycheeverse/lychee
 mask;jakedeichert/mask

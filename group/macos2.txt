@@ -1,5 +1,6 @@
 brew
 m
 mas
+port
 swift
 xcodes

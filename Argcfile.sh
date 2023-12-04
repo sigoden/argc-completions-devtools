@@ -179,6 +179,18 @@ go() {
     done
 }
 
+# @cmd Install commands in nix group
+# @option --skip <LINENUM>
+nix() {
+    _group_lines nix
+    for line in "${lines[@]}"; do
+        IFS=';' read -r name value <<<"$line"
+        echo "### nix $name"
+        command nix-env -iA "nixpkgs.${value:-$name}"
+        echo
+    done
+}
+
 # @cmd Install commands in npm group
 # @option --skip <LINENUM>
 npm() {
@@ -193,11 +205,11 @@ npm() {
 
 # @cmd Install commands in pip group
 # @option --skip <LINENUM>
-pip() {
-    _group_lines pip
+pipx() {
+    _group_lines pipx
     for line in "${lines[@]}"; do
         IFS=';' read -r name value <<<"$line"
-        echo "### pip $name"
+        echo "### pipx $name"
         command pipx install --include-deps "${value:-$name}"
         echo
     done
