@@ -97,6 +97,7 @@ ipatool;majd/ipatool
 istioctl;istio/istio
 jdupes;jbruchon/jdupes
 jless;PaulJuliusMartinez/jless
+jq;jqlang/jq
 just;casey/just
 k3d;k3d-io/k3d
 k6;grafana/k6

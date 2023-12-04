@@ -55,7 +55,6 @@ iconv;manpages
 ifconfig;net-tools
 iptables
 iwconfig;wireless-tools
-jq
 killall;psmisc
 kpartx
 ldconfig;libc-bin

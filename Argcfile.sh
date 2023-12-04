@@ -10,23 +10,39 @@ setup-shells() {
 }
 
 # @cmd Check command in a group
+# @flag -i --invert     List exist commands other than non-exist commands
 # @arg group[`_choice_group`]
 check:group() {
     mapfile -t cmds < <(_helper_cmds $1)
     for cmd in "${cmds[@]}"; do
-        if ! command -v "$cmd" >/dev/null; then
-            echo $cmd
+        if command -v "$cmd" >/dev/null; then
+            if [[ -n "$argc_invert" ]]; then
+                echo $cmd
+            fi
+        else
+            if [[ -z "$argc_invert" ]]; then
+                echo $cmd
+            fi
         fi
     done
 }
 
 # @cmd Check command all groups
+# @flag -i --invert     List exist commands other than non-exist commands
+# @flag -c --compact    Output cmd only
 check:all() {
     mapfile -t groups < <(_choice_group)
     for group in "${groups[@]}"; do
-        echo "### $group"
-        check:group $group
-        echo
+        if [[ -z "$argc_compact" ]]; then
+            echo "### $group"
+            check:group $group
+            echo
+        else
+            cmds=( $(check:group $group | tr '\n' ' ') )
+            if [[ -n "$cmds" ]]; then
+                echo -n "${cmds[*]} "
+            fi
+        fi
     done
 }
 
