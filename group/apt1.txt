@@ -1,5 +1,4 @@
 adduser
-ar;binutils-common
 attr
 base64;coreutils
 basename;coreutils
@@ -58,7 +57,6 @@ gio;libglib2.0-bin
 gpasswd;passwd
 gpg
 gpg-agent
-gprof;binutils-common
 groupadd;passwd
 groupdel;passwd
 groupmems;passwd
@@ -117,11 +115,9 @@ namei;util-linux
 networkctl;systemd
 nice;coreutils
 nl;coreutils
-nm;binutils-common
 nohup;coreutils
 nsenter;util-linux
 numfmt;coreutils
-objdump;binutils-common
 od;coreutils
 openssl
 passwd;passwd
@@ -142,7 +138,6 @@ printenv;coreutils
 ps;procps
 ptx;coreutils
 pwd;coreutils
-readelf;binutils-common
 readlink;coreutils
 realpath;coreutils
 reboot;systemd
@@ -177,8 +172,6 @@ ssh-keygen;openssh-client
 ssh;openssh-client
 stat;coreutils
 stdbuf;coreutils
-strings;binutils-common
-strip;binutils-common
 stty;coreutils
 sulogin;util-linux
 sum;coreutils

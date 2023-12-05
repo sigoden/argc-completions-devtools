@@ -14,7 +14,6 @@ ocaml
 op;1password-cli
 osqueryi
 packer
-php
 python;python@3.11.6
 ruby
 vault

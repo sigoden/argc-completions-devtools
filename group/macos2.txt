@@ -1,6 +1,6 @@
 brew
-m;m-cli
 mas
+m;m-cli
 port
 swift
 xcodes
