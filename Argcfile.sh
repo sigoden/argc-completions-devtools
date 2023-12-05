@@ -15,7 +15,7 @@ setup-shells() {
 check:group() {
     mapfile -t cmds < <(_helper_cmds $1)
     for cmd in "${cmds[@]}"; do
-        if command -v "$cmd" >/dev/null; then
+        if which "$cmd" >/dev/null; then
             if [[ -n "$argc_invert" ]]; then
                 echo $cmd
             fi
@@ -46,22 +46,6 @@ check:all() {
     done
 }
 
-# @cmd List commands in groups
-# @arg groups+[`_choice_group`]
-list() {
-    for group in "${argc_groups[@]}"; do
-        _helper_cmds "$group"
-    done
-}
-
-# @cmd Format group txts
-format() {
-    for f in group/*.txt; do
-        cat $f | sort -n -t';' -k1,1 | sponge $f
-        sed -i '/^\s*$/ d' $f
-    done
-}
-
 # @cmd Check missed commands
 check:missed() {
     # data="$(curl -fsSL https://raw.githubusercontent.com/sigoden/argc-completions/main/MANIFEST.md)"
@@ -88,9 +72,20 @@ check:missed() {
     echo "${missed[@]}"
 }
 
-# @cmd
-debug() {
-    _helper_registered_cmds
+# @cmd List commands in groups
+# @arg groups+[`_choice_group`]
+list() {
+    for group in "${argc_groups[@]}"; do
+        _helper_cmds "$group"
+    done
+}
+
+# @cmd Format group txts
+format() {
+    for f in group/*.txt; do
+        cat $f | sort -n -t';' -k1,1 | sponge $f
+        sed -i '/^\s*$/ d' $f
+    done
 }
 
 # @cmd Install commands in asdf group
@@ -226,7 +221,6 @@ apt() {
         echo
     done
 }
-
 
 # @cmd Install the command by asdf
 # @arg plugin

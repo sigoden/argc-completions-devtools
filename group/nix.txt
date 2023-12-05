@@ -34,11 +34,10 @@ cabal;cabal-install
 cdrdao
 certtool;gnutls
 cf;cloudfoundry-cli
-clang++;clang
-clang;clang
 cmake
 cmark
 cmus
+composer;php81Packages.composer
 conky
 cscope
 curl
@@ -112,7 +111,6 @@ kotlin
 kubectl
 less
 links;links2
-lldb
 logrotate
 lpass;lastpass-cli
 lynx
@@ -152,7 +150,7 @@ pdfgrep
 pg_dumpall;postgresql
 pg_dump;postgresql
 pg_restore;postgresql
-php
+php;php81
 pidstat;sysstat
 plutil;gnustep.base
 powertop
@@ -175,6 +173,7 @@ scrypt
 shar;sharutils
 shellcheck
 slrn
+smartctl;smartmontools
 smbclient;samba
 source-highlight;sourceHighlight
 sqlite3;sqlite
@@ -182,6 +181,7 @@ sshfs
 stow
 strace
 svn;subversion
+sv;runit
 swaks
 tcpdump
 tcsh
@@ -205,10 +205,7 @@ unxz;xz
 unzip
 vagrant
 valgrind
-vim
-vimdiff;vim
 virsh;libvirt
-vi;vim
 vlc
 vpnc
 w3m
@@ -223,12 +220,8 @@ winepath;wine
 winetricks
 wpa_cli;wpa_supplicant
 wrk
-xclip
-xinput;xorg.xinput
 xmake
 xmlstarlet
-xsel
-xxd;vim
 xz
 xzcat;xz
 yadm

@@ -15,7 +15,7 @@ op;1password-cli
 osqueryi
 packer
 python;python@3.11.6
-ruby
+ruby;ruby@3.2.2
 vault
 waypoint
 zig

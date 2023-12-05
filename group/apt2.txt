@@ -17,6 +17,8 @@ cdrecord;wodim
 cfdisk;fdisk
 c++;g++
 chattr;e2fsprogs
+clang++;clang
+clang;clang
 cpio
 crontab;cron
 cryptsetup;cryptsetup-bin
@@ -39,7 +41,6 @@ firefox
 ftp;inetutils-tools
 fuser;psmisc
 fwupdmgr;fwupd
-fwupdmgr;fwupd
 gcc
 getent;manpages
 g++;g++
@@ -61,6 +62,7 @@ killall;psmisc
 kpartx
 ldconfig;libc-bin
 ldd;libc-bin
+lldb
 loadkeys;kbd
 locale;manpages
 lp;cups-client
@@ -78,7 +80,6 @@ ncat
 nc;netcat
 neofetch
 netcat
-netctl
 netctl
 netctl-auto;netctl
 nginx
@@ -114,7 +115,10 @@ tracepath;iputils-tracepath
 tune2fs;e2fsprogs
 update-alternatives;dpkg
 upower
+vim
+vimdiff;vim
 visudo;sudo
+vi;vim-tiny
 watchgnupg;gnupg-utils
 wireshark
 wodim
@@ -124,6 +128,7 @@ xdg-open;xdg-utils
 xinput
 xrandr;x11-xserver-utils
 xsel
+xxd;vim
 xxh128sum;xxhash
 xxh32sum;xxhash
 xxh64sum;xxhash

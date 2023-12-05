@@ -1,5 +1,4 @@
 clj;clojure
-composer;php
 gem;ruby
 gofmt;go
 jar;java
