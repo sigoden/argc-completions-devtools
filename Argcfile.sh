@@ -211,9 +211,9 @@ pipx() {
 }
 
 # @cmd Install commands with apt
-# @arg list <file>
+# @option -s --start <LINENUM>
 apt() {
-    mapfile -t lines < $argc_list
+    _group_lines apt
     for line in "${lines[@]}"; do
         IFS=';' read -r name value <<<"$line"
         echo "### apt $name"

@@ -7,8 +7,7 @@ Tools for setting up all commands referenced by [argc-completions](https://githu
 ```
 ├── Argcfile.sh                 # task runner
 └── group
-    ├── apt1.txt                # ubuntu builtin
-    ├── apt2.txt                # ubuntu install
+    ├── apt.txt                 # apt install
     ├── asdf.txt                # asdf install
     ├── auto.txt                # auto install
     ├── cargo.txt               # cargo install
