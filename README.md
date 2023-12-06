@@ -7,6 +7,7 @@ Tools for setting up all commands referenced by [argc-completions](https://githu
 ```
 ├── Argcfile.sh                 # task runner
 └── group
+    ├── manual                  # manual install
     ├── apt.txt                 # apt install
     ├── asdf.txt                # asdf install
     ├── auto.txt                # auto install
@@ -18,7 +19,6 @@ Tools for setting up all commands referenced by [argc-completions](https://githu
     ├── linux.txt               # other linux used
     ├── macos1.txt              # macos builtin
     ├── macos2.txt              # macos install
-    ├── manual                  # manual install
     ├── nix.txt                 # nix install
     ├── npm.txt                 # npm install
     ├── pipx.txt                # pipx install
@@ -27,4 +27,4 @@ Tools for setting up all commands referenced by [argc-completions](https://githu
 
 ## Precedure
 
-ghrelease > asdf > cargo|composer|gemgo|npm|pip > nix > apt
+ghrelease > asdf > cargo|composer|gem|go|npm|pipx > nix > apt
