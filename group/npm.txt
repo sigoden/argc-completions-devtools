@@ -23,6 +23,7 @@ prettier
 pyright
 resume;resume-cli
 rollup
+serve
 swc;@swc/cli
 tldr
 tsc;typescript

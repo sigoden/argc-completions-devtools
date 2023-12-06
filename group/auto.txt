@@ -4,7 +4,6 @@ gofmt;go
 jar;java
 keytool;java
 luarocks;lua
-mix;elixir
 nix-build;nix
 nix-channel;nix
 nix-collect-garbage;nix

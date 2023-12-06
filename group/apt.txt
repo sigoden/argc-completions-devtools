@@ -316,10 +316,7 @@ userdel;passwd
 usermod;passwd
 uuidgen;util-linux
 vdir;coreutils
-vim
-vimdiff;vim
 visudo;sudo
-vi;vim-tiny
 vmstat;procps
 watchgnupg;gnupg-utils
 watch;procps
@@ -338,10 +335,10 @@ xdg-open;xdg-utils
 xinput
 xrandr;x11-xserver-utils
 xsel
-xxd;vim
 xxh128sum;xxhash
 xxh32sum;xxhash
 xxh64sum;xxhash
 xxhsum;xxhash
 zfs;zfsutils-linux
 zpool;zfsutils-linux
+dropbox;nautilus-dropbox

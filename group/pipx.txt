@@ -9,7 +9,6 @@ ansible-playbook;ansible
 ansible-vault;ansible
 asciinema
 awsume
-binwalk
 black
 bpython
 buku

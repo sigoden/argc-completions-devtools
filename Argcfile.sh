@@ -72,6 +72,11 @@ check:missed() {
     echo "${missed[@]}"
 }
 
+# @cmd Find duplicated commands
+check:dup() {
+    _helper_registered_cmds | sed '/^\s*$/ d' | sort | uniq -c | sed '/^\s*1 /d'
+}
+
 # @cmd List commands in groups
 # @arg groups+[`_choice_group`]
 list() {

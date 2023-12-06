@@ -147,7 +147,6 @@ rye;mitsuhiko/rye
 sad;ms-jpq/sad
 scc;boyter/scc
 sd;chmln/sd
-serve;syntaqx/serve
 sftpgo;drakkan/sftpgo
 sg;ast-grep/ast-grep
 shfmt;mvdan/sh

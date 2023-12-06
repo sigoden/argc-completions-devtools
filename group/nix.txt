@@ -50,7 +50,6 @@ dict
 doas
 dos2unix
 dotnet;dotnet-sdk_8
-dropbox;dropbox-cli
 dstat
 dune;dune_3
 elinks
@@ -232,3 +231,9 @@ zipcloak;zip
 7za;p7zip
 7z;p7zip
 7zr;p7zip
+vim;vim-full
+vimdiff;vim-full
+vi;vim-full
+xxd;vim-full
+elixir
+binwalk
