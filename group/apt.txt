@@ -69,6 +69,7 @@ dnsmasq;dnsmasq-base
 dpkg
 dpkg-deb;dpkg
 dpkg-reconfigure;dpkg
+dropbox;nautilus-dropbox
 du;coreutils
 ed
 efibootmgr
@@ -341,4 +342,3 @@ xxh64sum;xxhash
 xxhsum;xxhash
 zfs;zfsutils-linux
 zpool;zfsutils-linux
-dropbox;nautilus-dropbox

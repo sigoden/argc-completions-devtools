@@ -22,6 +22,7 @@ az;azure-cli
 bats
 bazel
 beep
+binwalk
 bison
 brctl;bridge-utils
 brightnessctl
@@ -53,6 +54,7 @@ dotnet;dotnet-sdk_8
 dstat
 dune;dune_3
 elinks
+elixir
 elvish
 emacs
 enscript
@@ -160,6 +162,7 @@ qrencode
 quilt
 rar
 rbenv
+rebar3
 recode
 redis-cli;redis
 rhash
@@ -204,7 +207,10 @@ unxz;xz
 unzip
 vagrant
 valgrind
+vimdiff;vim-full
+vim;vim-full
 virsh;libvirt
+vi;vim-full
 vlc
 vpnc
 w3m
@@ -221,6 +227,7 @@ wpa_cli;wpa_supplicant
 wrk
 xmake
 xmlstarlet
+xxd;vim-full
 xz
 xzcat;xz
 yadm
@@ -231,9 +238,3 @@ zipcloak;zip
 7za;p7zip
 7z;p7zip
 7zr;p7zip
-vim;vim-full
-vimdiff;vim-full
-vi;vim-full
-xxd;vim-full
-elixir
-binwalk

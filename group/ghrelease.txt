@@ -15,6 +15,7 @@ cargo-audit;RustSec/rustsec
 cargo-binstall;cargo-bins/cargo-binstall
 cargo-bloat;RazrFalcon/cargo-bloat
 cargo-fuzz;rust-fuzz/cargo-fuzz
+cargo-hack;taiki-e/cargo-hack
 cargo-leptos;leptos-rs/cargo-leptos
 cargo-llvm-cov;taiki-e/cargo-llvm-cov
 cargo-make;sagiegurari/cargo-make
