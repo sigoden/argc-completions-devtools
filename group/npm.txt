@@ -24,6 +24,7 @@ pyright
 resume;resume-cli
 rollup
 serve
+svgo
 swc;@swc/cli
 tldr
 tsc;typescript

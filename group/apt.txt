@@ -241,6 +241,7 @@ rm;coreutils
 rmdir;coreutils
 rmmod;kmod
 route;net-tools
+sc-im
 scp;openssh-client
 sed
 seq;coreutils

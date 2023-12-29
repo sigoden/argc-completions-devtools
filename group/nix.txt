@@ -22,6 +22,7 @@ az;azure-cli
 bats
 bazel
 beep
+bfs
 binwalk
 bison
 brctl;bridge-utils
@@ -35,6 +36,7 @@ cabal;cabal-install
 cdrdao
 certtool;gnutls
 cf;cloudfoundry-cli
+clib
 cmake
 cmark
 cmus
@@ -95,8 +97,10 @@ hashdeep
 help2man
 hexchat
 highlight
+himalaya
 hledger
 htop
+httm
 hunspell
 hwinfo
 iftop
@@ -110,6 +114,7 @@ keepassxc-cli;keepassxc
 keybase
 kotlin
 kubectl
+kubescape
 less
 links;links2
 logrotate
@@ -169,11 +174,13 @@ rhash
 Rscript;R
 rsync
 sbt
+scrcpy
 screen
 scrot
 scrypt
 shar;sharutils
 shellcheck
+sk;skim
 slrn
 smartctl;smartmontools
 smbclient;samba
@@ -214,6 +221,9 @@ vi;vim-full
 vlc
 vpnc
 w3m
+wasm2js;binaryen
+wasm-merge;binaryen
+wasm-opt;binaryen
 watchman
 wdiff
 wezterm
