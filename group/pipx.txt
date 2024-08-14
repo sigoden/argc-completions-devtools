@@ -25,7 +25,9 @@ locust
 mackup
 mariner
 meson
+mitmdump;mitmproxy
 mitmproxy
+mitmweb;mitmproxy
 mkdocs
 molecule
 mypy

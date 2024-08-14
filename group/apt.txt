@@ -278,6 +278,7 @@ sudoedit;sudo
 sulogin;util-linux
 sum;coreutils
 su;util-linux
+swaks
 sync;coreutils
 sysctl;procps
 systemctl;systemd

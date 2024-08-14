@@ -109,7 +109,6 @@ hyperfine;sharkdp/hyperfine
 ipatool;majd/ipatool
 ipinfo;ipinfo/cli
 istioctl;istio/istio
-jdupes;jbruchon/jdupes
 jless;PaulJuliusMartinez/jless
 joker;candid82/joker
 jq;jqlang/jq
@@ -210,6 +209,7 @@ usql;xo/usql
 vale;errata-ai/vale
 vegeta;tsenart/vegeta
 vela;kubevela/kubevela
+vfox;version-fox/vfox
 vhs;charmbracelet/vhs
 viddy;sachaos/viddy
 viu;atanunq/viu
@@ -234,3 +234,4 @@ zenith;bvaisvil/zenith
 zk;mickael-menu/zk
 zola;getzola/zola
 zoxide;ajeetdsouza/zoxide
+monolith;Y2Z/monolith
