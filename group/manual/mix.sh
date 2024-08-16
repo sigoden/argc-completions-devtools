@@ -1,3 +1,3 @@
-nix-env -iA erlang
-nix-env -iA elixir
+nix-env -iA nixpkgs.erlang
+nix-env -iA nixpkgs.elixir
 mix archive.install hex phx_new

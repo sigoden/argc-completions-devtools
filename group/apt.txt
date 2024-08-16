@@ -318,6 +318,7 @@ useradd;passwd
 userdel;passwd
 usermod;passwd
 uuidgen;util-linux
+vagrant
 vdir;coreutils
 visudo;sudo
 vmstat;procps

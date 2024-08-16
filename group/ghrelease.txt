@@ -138,6 +138,7 @@ mdbook;rust-lang/mdBook
 micro;zyedidia/micro
 minikube;kubernetes/minikube
 miniserve;svenstaro/miniserve
+monolith;Y2Z/monolith
 muffet;raviqqe/muffet
 naabu;projectdiscovery/naabu
 nali;zu1k/nali
@@ -234,4 +235,3 @@ zenith;bvaisvil/zenith
 zk;mickael-menu/zk
 zola;getzola/zola
 zoxide;ajeetdsouza/zoxide
-monolith;Y2Z/monolith

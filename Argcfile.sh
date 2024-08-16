@@ -123,7 +123,7 @@ cargo() {
     for line in "${lines[@]}"; do
         IFS=';' read -r name value <<<"$line"
         echo "### cargo $name"
-        command cargo install "${value:-$name}"
+        command cargo install --locked -f "${value:-$name}"
         echo
     done
 }

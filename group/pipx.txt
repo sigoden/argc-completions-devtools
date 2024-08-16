@@ -23,7 +23,6 @@ icdiff
 khal
 locust
 mackup
-mariner
 meson
 mitmdump;mitmproxy
 mitmproxy

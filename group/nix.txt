@@ -40,7 +40,7 @@ clib
 cmake
 cmark
 cmus
-composer;php81Packages.composer
+composer;php83Packages.composer
 conky
 cscope
 curl
@@ -108,8 +108,8 @@ iostat;sysstat
 ipset
 irssi
 java;jdk
-jmeter
 jdupes
+jmeter
 kak;kakoune
 keepassxc-cli;keepassxc
 keybase
@@ -157,7 +157,7 @@ pdfgrep
 pg_dumpall;postgresql
 pg_dump;postgresql
 pg_restore;postgresql
-php;php81
+php;php83
 pidstat;sysstat
 plutil;gnustep.base
 powertop
@@ -212,7 +212,6 @@ unix2dos;dos2unix
 unlzma;lzma
 unxz;xz
 unzip
-vagrant
 valgrind
 vimdiff;vim-full
 vim;vim-full
