@@ -3,4 +3,5 @@ mas
 m;m-cli
 port
 swift
+tuist
 xcodes

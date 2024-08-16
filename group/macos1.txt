@@ -27,7 +27,6 @@ softwareupdate
 sw_vers
 system_profiler
 tmutil
-tuist
 xcodebuild
 xcode-select
 xcrun
