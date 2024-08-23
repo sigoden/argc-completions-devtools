@@ -1,3 +1,4 @@
+aider
 airflow;apache-airflow
 ansible;brew
 ansible-config;ansible

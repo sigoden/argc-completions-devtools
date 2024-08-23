@@ -6,6 +6,7 @@ aichat;sigoden/aichat
 argo;argoproj/argo-workflows
 assh;moul/assh
 atlas;mongodb/mongodb-atlas-cli
+autocorrect;huacnlee/autocorrect
 bandwhich;imsnif/bandwhich
 bat;sharkdp/bat
 bore;ekzhang/bore
@@ -40,6 +41,7 @@ coreutils;uutils/coreutils
 cosign;sigstore/cosign
 croc;schollz/croc
 csview;wfxr/csview
+csvlens;YS-L/csvlens
 ctop;bcicen/ctop
 dasel;TomWright/dasel
 dbmate;amacneil/dbmate
@@ -61,6 +63,7 @@ dua;Byron/dua-cli
 duf;muesli/duf
 dufs;sigoden/dufs
 dust;bootandy/dust
+earthly;earthly/earthly
 erd;solidiquis/erdtree
 exa;ogham/exa
 exercism;exercism/cli
@@ -91,6 +94,7 @@ goose;pressly/goose
 gopass;gopasspw/gopass
 goreleaser;goreleaser/goreleaser
 gping;orf/gping
+gptscript;gptscript-ai/gptscript
 grex;pemistahl/grex
 gron;tomnomnom/gron
 grpcurl;fullstorydev/grpcurl
@@ -109,6 +113,8 @@ hyperfine;sharkdp/hyperfine
 ipatool;majd/ipatool
 ipinfo;ipinfo/cli
 istioctl;istio/istio
+jaq;01mf02/jaq
+jj;martinvonz/jj
 jless;PaulJuliusMartinez/jless
 joker;candid82/joker
 jq;jqlang/jq
@@ -159,16 +165,20 @@ opam;ocaml/opam
 opa;open-policy-agent/opa
 ouch;ouch-org/ouch
 oxipng;shssoichiro/oxipng
+oxlint;oxc-project/oxc
 pastel;sharkdp/pastel
 pdfcpu;pdfcpu/pdfcpu
 peco;peco/peco
 pocketbase;pocketbase/pocketbase
 podman;containers/podman
 pop;charmbracelet/pop
+presenterm;mfontanini/presenterm
 procs;dalance/procs
 pueue;Nukesor/pueue
 pulumi;pulumi/pulumi
 rclone;rclone/rclone
+realm;zhboner/realm
+replibyte;Qovery/Replibyte
 restic;restic/restic
 rga;phiresky/ripgrep-all
 rga;phiresky/ripgrep-all
@@ -185,12 +195,14 @@ shfmt;mvdan/sh
 silicon;Aloxaf/silicon
 slides;maaslalani/slides
 sops;getsops/sops
+ssh3;francoismichel/ssh3
 stack;commercialhaskell/stack
 starship;starship/starship
 stripe;stripe/stripe-cli
 supabase;supabase/cli
 surreal;surrealdb/surrealdb
 syft;anchore/syft
+tailspin;bensadeh/tailspin
 task;go-task/task
 terragrunt;gruntwork-io/terragrunt
 terramate;terramate-io/terramate
@@ -207,6 +219,7 @@ typos;crate-ci/typos
 typst;typst/typst
 upx;upx/upx
 usql;xo/usql
+uv;astral-sh/uv
 vale;errata-ai/vale
 vegeta;tsenart/vegeta
 vela;kubevela/kubevela

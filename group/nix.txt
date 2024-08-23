@@ -221,6 +221,7 @@ vlc
 vpnc
 w3m
 wasm2js;binaryen
+wasmedge
 wasm-merge;binaryen
 wasm-opt;binaryen
 watchman

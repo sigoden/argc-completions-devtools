@@ -126,7 +126,6 @@ id;coreutils
 ifconfig;net-tools
 ifdown;ifupdown-ng
 ifup;ifupdown-ng
-initctl;systemd-sysv
 install;coreutils
 ionice;util-linux
 ip;iproute2
