@@ -14,6 +14,7 @@ bosh;cloudfoundry/bosh-cli
 btm;ClementTsang/bottom
 buf;bufbuild/buf
 bun;oven-sh/bun
+bws;bitwarden/sdk
 caddy;caddyserver/caddy
 cargo-audit;RustSec/rustsec
 cargo-binstall;cargo-bins/cargo-binstall
@@ -116,6 +117,7 @@ istioctl;istio/istio
 jaq;01mf02/jaq
 jj;martinvonz/jj
 jless;PaulJuliusMartinez/jless
+jnv;ynqa/jnv
 joker;candid82/joker
 jq;jqlang/jq
 jql;yamafaktory/jql
@@ -203,7 +205,6 @@ supabase;supabase/cli
 surreal;surrealdb/surrealdb
 syft;anchore/syft
 tailspin;bensadeh/tailspin
-task;go-task/task
 terragrunt;gruntwork-io/terragrunt
 terramate;terramate-io/terramate
 tfsec;aquasecurity/tfsec

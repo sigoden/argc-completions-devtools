@@ -198,6 +198,7 @@ nl;coreutils
 nm;binutils-common
 nmcli;network-manager
 nohup;coreutils
+notify-send;libnotify-bin
 nsenter;util-linux
 numfmt;coreutils
 objdump;binutils-common

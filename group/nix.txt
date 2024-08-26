@@ -120,9 +120,11 @@ less
 links;links2
 logrotate
 lpass;lastpass-cli
+lynis
 lynx
 lzcat;xz
 lzma
+magick;imagemagick
 mat2
 mbuffer
 meld
@@ -192,6 +194,7 @@ stow
 strace
 svn;subversion
 sv;runit
+task;taskwarrior
 tcpdump
 tcsh
 tesseract
@@ -243,6 +246,7 @@ xzcat;xz
 yadm
 zathura
 zcat;xz
+zed;zed-editor
 zip
 zipcloak;zip
 7za;p7zip

@@ -10,6 +10,7 @@ expo;expo-cli
 firebase;firebase-tools
 gatsby;gatsby-cli
 git-open
+hexo;hexo-cli
 lerna
 ncu;npm-check-updates
 nest;@nestjs/cli
